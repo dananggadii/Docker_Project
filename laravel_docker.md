@@ -53,7 +53,6 @@ CMD ["php-fpm"]
 > - Tentuin `container_name` di services nya
 > - Tentuin `container_name` di DB nya
 > - Tentuin `environment` di DB nya kaya port, user, password sama database nya
-> - Tentuin `container_name`
 
 ```yaml
 version: '3.8'
