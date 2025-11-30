@@ -28,7 +28,7 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 
 Check to see whether the Portainer Server container has started by running docker ps:
 
-![alt text](images/portainer-installation/image-1.png)
+![alt text](../images/installation/portainer/image-1.png)
 
 ## Setup Reverse Proxy
 
@@ -49,7 +49,7 @@ Add Portainer DNS record
 - Vales : `[Your IP]`
 - TTL : Default
 
-![alt text](images/portainer-installation/image-2.png)
+![alt text](../images/installation/portainer/image-2.png)
 
 follow this:
 
@@ -86,10 +86,10 @@ sudo systemctl reload nginx
 sudo certbot --nginx -d portainer.danang-dev.com
 ```
 
-![alt text](images/portainer-installation/image.png)
+![alt text](../images/installation/portainer/image.png)
 
 ## Overview
 
-![alt text](images/portainer-installation/image-3.png)
+![alt text](../images/installation/portainer/image-3.png)
 
-![alt text](images/portainer-installation/image-4.png)
+![alt text](../images/installation/portainer/image-4.png)
